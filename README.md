@@ -113,3 +113,51 @@ Encrypt("Hello") ➞ [72, 29, 7, 0, 3]
 // The difference between the two l's is obviously 0.  
 Decrypt([ 72, 33, -73, 84, -12, -3, 13, -13, -68 ]) ➞ "Hi there!"  
 Encrypt("Sunshine") ➞ [83, 34, -7, 5, -11, 1, 5, -9]  
+
+## challenge-301
+
+Create a program that takes two numbers and an operator as input from the user, and outputs the result of the operation. The operator can be +, -, *, or /.  
+
+Example output:  
+Enter the first number: 5  
+Enter the second number: 3  
+Enter the operator (+, -, *, /): *  
+The result is: 15  
+
+## challenge-302
+
+Create a program that takes a number as input from the user and outputs the Fibonacci sequence up to that number.  
+
+Example output:  
+Enter a number: 10  
+0 1 1 2 3 5 8
+
+## challenge-303
+
+Create a program that takes a sentence as input from the user and outputs the number of words in the sentence.
+
+Example output:  
+Enter a sentence: The quick brown fox jumps over the lazy dog.  
+The sentence contains 9 words.  
+
+## challenge-304
+
+Create a program that takes a string and a key as input from the user, and outputs the encrypted string using the Caesar Cipher. The Caesar Cipher shifts each letter in the string by the number of positions indicated by the key.  
+
+Example output:  
+Enter a string: hello  
+Enter the key: 3   
+The encrypted string is: khoor  s
+
+## challenge-305
+
+Create a program that generates a random password based on user specifications. The program should allow the user to specify the length of the password, as well as which character sets should be used (lowercase letters, uppercase letters, numbers, and/or special characters).
+
+Example output:  
+Welcome to the password generator!  
+Enter the length of the password: 12  
+Include lowercase letters? (Y/N): Y  
+Include uppercase letters? (Y/N): Y  
+Include numbers? (Y/N): Y  
+Include special characters? (Y/N): Y  
+Your generated password is: P9x@tL3#VfZ$  
